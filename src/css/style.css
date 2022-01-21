@@ -1,0 +1,147 @@
+header{
+    background-color: #7253B0;
+    height: 286px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body{
+    background-color: #E9ECEF;
+}
+
+.clusterSearch{
+    background-color: #FFF;
+    width: 85vw;
+    height: 210px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 8px;
+}
+
+.clusterSearch > h3 {
+    width: 78px;
+    height: 15px;
+    font-weight: 400;
+    font-size: 13px;
+    color: #212529;
+}
+
+.search{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.searchInput{
+    width: 78vw;
+    height: 60px;
+    text-align: center;
+    border: 2px solid #F5F5F5;
+    background-color: #F5F5F5;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.searchButton{
+    height: 60px;
+    width: 78vw;
+    border-radius: 8px;
+    background: #7253B0;
+    border: 2px solid #7253B0;
+    font-weight: 500;
+    color: #FFF;
+}
+
+.links{
+    display: flex;
+    justify-content: space-between;
+}
+
+.link{
+    width: 90px;
+    text-align: center;
+    background-color: #F1EEF8;
+    color: #7253B0;
+    line-height: 21px;
+}
+
+.clusterDescription{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.picButton{
+    background-color: #7253B0;
+    color: #FFF;
+    border: 1.49px solid #7253B0;
+    border-radius: 4px;
+    height: 27.558061599731445px;
+    width: 35px;
+    margin-right: 10px;
+    margin-bottom: 35px;
+}
+
+img{
+    max-width: 80vw;
+    max-height: 300px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+h4{
+    font-weight: 700;
+    color: #333;
+    background-color: #FFF;
+}
+
+
+@media (min-width: 800px){
+
+    .clusterSearch{
+        width: 786px;
+        height: 153px;
+    }
+
+    .clusterSearch > h3 {
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .search{
+        flex-direction: row;
+    }
+
+    .searchInput{
+        margin-bottom: 0px;
+        margin-right: 8px;
+    }
+
+    .searchButton{
+        width: 156px;
+        cursor: pointer;
+    }
+
+    .links{
+        justify-content: flex-start;
+    }
+
+    .link{
+        margin-right: 10px;
+    }
+
+    .picButton:hover{
+        cursor: pointer;
+    }
+}
